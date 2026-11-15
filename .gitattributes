@@ -1,0 +1,14 @@
+# Normalize text files across operating systems
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.glb binary
+*.woff binary
+*.woff2 binary
