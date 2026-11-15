@@ -1,6 +1,4 @@
-﻿# Agentic Frontend & 3D Web Playbook
-
-![Agentic Frontend & 3D Web Playbook](assets/brand/logo.svg)
+﻿![Agentic Frontend & 3D Web Playbook](assets/brand/logo.svg)
 
 **An open-source engineering knowledge base and skill collection for AI-assisted frontend development, immersive 3D websites, and interactive web experiences.**
 
