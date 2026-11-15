@@ -2,21 +2,25 @@
 
 ![Agentic Frontend & 3D Web Playbook](assets/brand/logo.svg)
 
-[Documentation](#documentation) · [AI Agent Skills](#ai-agent-skills) · [How to Use](#how-to-use-this-repository) · [Examples](#project-blueprints) · [Contributing](CONTRIBUTING.md)
+**An open-source engineering knowledge base and skill collection for AI-assisted frontend development, immersive 3D websites, and interactive web experiences.**
+
+[Documentation](#documentation) · [Developer Toolkit](#developer-toolkit) · [AI Agent Skills](#ai-agent-skills) · [How to Use](#how-to-use-this-repository) · [Project Blueprints](#project-blueprints) · [Contributing](CONTRIBUTING.md)
 
 ---
 
 ## What Is This?
 
-Agentic Frontend & 3D Web Playbook is an open-source resource for developers who use AI coding agents to design, build, improve, and maintain frontend applications.
+The **Agentic Frontend & 3D Web Playbook** is an open-source resource for developers who use AI coding agents to design, build, improve, and maintain frontend applications.
 
-It provides structured engineering knowledge, practical implementation guidance, reusable agent skills, and project blueprints that help AI agents work more systematically.
+It provides structured engineering knowledge, practical implementation guidance, reusable AI agent skills, curated developer resources, and project blueprints that help AI agents work more systematically.
 
-Instead of asking an AI agent to build an entire website from a vague prompt, developers can give it relevant engineering instructions, technical references, design principles, and specialized skills.
+Instead of asking an AI agent to build an entire website from a vague prompt, developers can provide relevant engineering instructions, technical references, design principles, and specialized skills.
 
-The goal is to improve the quality of AI-generated frontend work through better planning, architecture, implementation, visual review, accessibility, and performance optimization.
+The goal is to improve the quality of AI-generated frontend work through better planning, architecture, implementation, visual review, accessibility, testing, and performance optimization.
 
-This repository is designed to be used alongside AI coding tools such as Claude Code, Cursor, GitHub Copilot, OpenAI Codex, and other agents that can read project instructions and reference files. Exact skill-loading support depends on the tool.
+This repository is designed to work alongside AI coding tools such as Claude Code, Cursor, GitHub Copilot, OpenAI Codex, Gemini CLI, and other compatible AI development agents.
+
+Exact instruction and skill-loading capabilities depend on the coding agent being used.
 
 ## Why Does It Exist?
 
@@ -33,7 +37,7 @@ Developers frequently encounter problems such as:
 - Excessive rendering costs and GPU performance problems.
 - Inaccessible interfaces and incomplete interaction states.
 - Insufficient testing and visual quality assurance.
-- AI agents changing existing code without understanding the project.
+- AI agents modifying existing code without understanding the project.
 
 This playbook provides reusable guidance to address these challenges.
 
@@ -51,7 +55,7 @@ Use the guides as practical references for React, Next.js, TypeScript, responsiv
 
 ### Creative Developers
 
-Use the 3D web, shader, animation, and interaction documentation when building immersive websites and interactive browser experiences.
+Explore the 3D web, shader, animation, and interaction documentation when building immersive websites and interactive browser experiences.
 
 ### Design Engineers
 
@@ -59,11 +63,9 @@ Use the design system, typography, color, component, and visual review guidance 
 
 ### AI Agent Skill Authors
 
-Use the existing skills as examples and contribute additional reusable instructions for specialized frontend development tasks.
+Explore existing skills as examples and contribute additional reusable instructions for specialized frontend development tasks.
 
 ## What Can You Do With It?
-
-This repository is intended to support real development work.
 
 | Your task | What to use |
 |---|---|
@@ -74,8 +76,9 @@ This repository is intended to support real development work.
 | Fix responsive problems | Responsive design guide, frontend visual audit skill |
 | Improve website animations | GSAP, Motion, scroll experiences |
 | Review website design quality | Visual review workflow, frontend visual audit skill |
-| Optimize a 3D website | Three.js optimization, shaders and performance guidance |
+| Optimize a 3D website | Three.js optimization, shaders, performance guidance |
 | Create reusable components | Design systems and component documentation |
+| Discover development tools | Developer Toolkit |
 | Plan a frontend project | Planning workflow and relevant project blueprint |
 
 ---
@@ -103,7 +106,7 @@ For example, if you are building a Three.js website, start with the Three.js gui
 
 This is one of the primary intended use cases.
 
-First, clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/axomiyaindie/agentic-frontend-playbook.git
@@ -111,7 +114,7 @@ git clone https://github.com/axomiyaindie/agentic-frontend-playbook.git
 cd agentic-frontend-playbook
 ```
 
-Your own application should remain in its own project directory. You can keep this playbook as a separate reference repository or include relevant documentation in your development workspace.
+Your application should remain in its own project directory. You can keep this playbook as a separate reference repository or include relevant documentation in your development workspace.
 
 Give your AI coding agent access to:
 
@@ -119,10 +122,11 @@ Give your AI coding agent access to:
 - Relevant documentation for the technology or task.
 - The appropriate `SKILL.md` for specialized instructions.
 - An example blueprint when starting a similar project.
+- Developer Toolkit references when selecting tools and libraries.
 
 The agent should use these materials as engineering guidance rather than blindly copying every recommendation.
 
-**Example: Building a premium 3D portfolio**
+#### Example: Building a Premium 3D Portfolio
 
 Give your coding agent a task like this:
 
@@ -311,6 +315,28 @@ Discover tools, libraries, references, and inspiration.
 
 - [Libraries and Tools](resources/libraries.md) — frontend frameworks, styling systems, UI libraries, 3D tools, animation libraries, and development utilities.
 - [Design Inspiration](resources/inspiration.md) — website galleries, design references, creative studios, 3D showcases, and visual inspiration.
+- [Developer Toolkit](resources/toolkit/README.md) — curated websites, open-source repositories, AI development tools, frontend utilities, design resources, and more.
+
+---
+
+## Developer Toolkit
+
+The Developer Toolkit is a curated collection of useful websites, developer tools, open-source projects, libraries, and resources for modern frontend and creative web development.
+
+Each resource includes a short explanation of what it does and how it can help developers.
+
+Explore the categories:
+
+| Category | Description |
+|---|---|
+| [Frontend Tools](resources/toolkit/frontend-tools.md) | Frontend frameworks, UI libraries, component systems, state management, and testing tools. |
+| [3D Web Tools](resources/toolkit/3d-web-tools.md) | Three.js ecosystem, 3D frameworks, asset pipelines, model viewers, and 3D asset libraries. |
+| [Animation Tools](resources/toolkit/animation-tools.md) | Animation libraries, motion systems, scroll tools, and interactive animation platforms. |
+| [AI Development](resources/toolkit/ai-development.md) | AI coding agents, developer assistants, agent frameworks, and AI development infrastructure. |
+| [Design Resources](resources/toolkit/design-resources.md) | Design tools, icon libraries, typography, color resources, and visual inspiration. |
+| [Utilities](resources/toolkit/utilities.md) | Performance, accessibility, testing, optimization, image processing, and developer utilities. |
+
+The toolkit is intended to be an evolving resource. Contributions that improve accuracy, usefulness, and discoverability are welcome.
 
 ---
 
@@ -402,6 +428,8 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution instructions.
 
 ## Roadmap
 
+### Completed
+
 - [x] Establish the repository and documentation structure.
 - [x] Create frontend engineering fundamentals.
 - [x] Add Three.js and React Three Fiber documentation.
@@ -412,11 +440,16 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution instructions.
 - [x] Create initial reusable AI agent skills.
 - [x] Add three detailed project blueprints.
 - [x] Publish curated libraries and inspiration resources.
+- [x] Add a categorized Developer Toolkit.
+
+### Planned
+
 - [ ] Expand the reusable AI agent skill collection.
 - [ ] Add more implementation-ready examples.
 - [ ] Introduce automated documentation and skill validation.
 - [ ] Improve continuous integration and quality checks.
 - [ ] Expand visual testing and accessibility resources.
+- [ ] Add more practical frontend and 3D implementation patterns.
 
 ---
 
@@ -427,7 +460,7 @@ This project is licensed under the [MIT License](LICENSE).
 You are free to use, modify, distribute, and adapt the materials under the terms of the license.
 
 ---
+
 Contributions, suggestions, and feedback are welcome.
----
 
 **Build better interfaces. Create immersive experiences. Engineer with AI.**
