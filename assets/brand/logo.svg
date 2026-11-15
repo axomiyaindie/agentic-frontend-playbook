@@ -1,47 +1,56 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
-  <defs>
-    <linearGradient id="gradient" x1="92" y1="75" x2="420" y2="438" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38D9F5"/>
-      <stop offset="0.52" stop-color="#6685F8"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <linearGradient id="face" x1="180" y1="120" x2="340" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8FAFC"/>
-      <stop offset="1" stop-color="#94A3B8"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <title>Agentic Frontend and 3D Web Playbook</title>
+  <desc>Horizontal brand logo with a geometric 3D cube and frontend code-inspired symbol.</desc>
 
-  <!-- Outer geometric frame -->
-  <path d="M256 36 443 144V368L256 476 69 368V144L256 36Z"
-        stroke="url(#gradient)" stroke-width="12" stroke-linejoin="round"/>
+  <g transform="translate(180 270)">
+    <!-- Outer code brackets -->
+    <path d="M105 65 L55 110 L105 155"
+          stroke="#64748B" stroke-width="15"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M335 65 L385 110 L335 155"
+          stroke="#64748B" stroke-width="15"
+          stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Frontend interface frame -->
-  <path d="M151 153H361V329H151V153Z"
-        stroke="url(#gradient)" stroke-width="11" stroke-linejoin="round"/>
+    <!-- Geometric 3D cube -->
+    <path d="M220 25 L305 73 L220 121 L135 73 Z"
+          stroke="#06B6D4" stroke-width="12"
+          stroke-linejoin="round"/>
+    <path d="M135 73 V170 L220 220 V121"
+          stroke="#94A3B8" stroke-width="12"
+          stroke-linejoin="round"/>
+    <path d="M305 73 V170 L220 220"
+          stroke="#64748B" stroke-width="12"
+          stroke-linejoin="round"/>
 
-  <path d="M151 190H361" stroke="url(#gradient)" stroke-width="8"/>
-  <circle cx="174" cy="172" r="5" fill="#38D9F5"/>
-  <circle cx="193" cy="172" r="5" fill="#6685F8"/>
-  <circle cx="212" cy="172" r="5" fill="#A78BFA"/>
+    <!-- AI connection node -->
+    <circle cx="305" cy="25" r="13" fill="#06B6D4"/>
+    <path d="M305 38 V60" stroke="#06B6D4" stroke-width="8"
+          stroke-linecap="round"/>
+    <circle cx="220" cy="25" r="7" fill="#E2E8F0"/>
+  </g>
 
-  <!-- 3D cube -->
-  <path d="M256 213 322 251V326L256 364L190 326V251L256 213Z"
-        stroke="url(#gradient)" stroke-width="10" stroke-linejoin="round"/>
+  <!-- Wordmark -->
+  <g font-family="Inter, Arial, Helvetica, sans-serif">
+    <text x="650" y="390" fill="#E2E8F0"
+          font-size="86" font-weight="700"
+          letter-spacing="-3">
+      Agentic Frontend
+    </text>
 
-  <path d="M190 251 256 290 322 251M256 290V364"
-        stroke="url(#gradient)" stroke-width="9" stroke-linejoin="round"/>
+    <text x="655" y="475" fill="#06B6D4"
+          font-size="43" font-weight="500"
+          letter-spacing="2">
+      &amp; 3D WEB PLAYBOOK
+    </text>
 
-  <!-- Inner dimensional highlight -->
-  <path d="M256 213V290L322 251"
-        stroke="url(#face)" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M655 525 H1180"
+          stroke="#334155" stroke-width="3"/>
 
-  <!-- Agentic connection nodes -->
-  <path d="M125 125 151 153M387 125 361 153M125 355 151 329M387 355 361 329"
-        stroke="url(#gradient)" stroke-width="8" stroke-linecap="round"/>
-
-  <circle cx="116" cy="116" r="12" fill="#38D9F5"/>
-  <circle cx="396" cy="116" r="12" fill="#6685F8"/>
-  <circle cx="116" cy="364" r="12" fill="#6685F8"/>
-  <circle cx="396" cy="364" r="12" fill="#A78BFA"/>
+    <text x="655" y="575" fill="#94A3B8"
+          font-size="23" font-weight="400"
+          letter-spacing="3">
+      ENGINEERING · CREATIVITY · INTELLIGENCE
+    </text>
+  </g>
 </svg>
